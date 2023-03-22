@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Libre Franklin', Proxima Nova, system-ui, sans-serif;
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+    font-family: 'Domine', Proxima Nova, system-ui, sans-serif;;
+  }
+
+  button {
+    @apply bg-blue-500 rounded text-white px-3 py-1;
+  }
+}
